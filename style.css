@@ -1,0 +1,225 @@
+img {
+  max-width: 50%;
+  height: auto;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.active {
+  display: block;
+}
+
+.image-button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.image-button img {
+  width: 10px; /* Adjust the width as needed */
+  height: 10px; /* Adjust the height as needed */
+} 
+
+.center-text {
+  text-align: center;
+}
+
+.slideshow-container {
+  text-align: center;
+}
+
+.slideshow-container img {
+  max-width: 100%;
+  height: auto;
+  margin: auto; /* Adjust the margin as needed */
+}
+
+.contact-section {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;    
+}
+.container {
+    max-width: 1200px;
+    min-width: 650px;
+    margin: 0 auto;
+    padding: 50px;      
+}
+
+.chart {
+    display: grid;
+    border: 2px solid #000;
+    position: relative;
+    overflow: hidden;  
+}
+.chart-row {
+  display: grid;      
+  grid-template-columns: 50px 1fr;
+  background-color: #DCDCDC;
+}
+.chart-row:nth-child(odd) {
+  background-color: #C0C0C0;
+}
+.chart-period {
+  color:  #fff;
+  background-color:  #708090 !important;
+  border-bottom: 2px solid #000; 
+  grid-template-columns: 50px repeat(12, 1fr);
+}
+.chart-lines {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  grid-template-columns: 50px repeat(12, 1fr);
+}
+.chart-period > span {    
+  text-align: center;
+  font-size: 13px;
+  align-self: center;
+  font-weight: bold;
+  padding: 15px 0;    
+}
+.chart-lines > span {
+  display: block;
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.chart-row-item {
+  background-color:#808080;
+  border: 1px solid  #000;
+  border-top: 0;
+  border-left: 0;      
+  padding: 20px 0;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+} 
+
+.chart-row-bars {
+  list-style: none;
+  display: grid;
+  padding: 15px 0;
+  margin: 0;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 10px 0;
+  border-bottom: 1px solid  #000;
+}
+li {
+  font-weight: 450;
+  text-align: left;
+  font-size: 15px;
+  min-height: 15px;
+  background-color: #708090;
+  padding: 5px 15px;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  border-radius: 15px;
+}
+ul .chart-li-one {
+  grid-column: 11/12; 
+  background-color:#588BAE;
+}
+.chart-li-one:before {
+  content: "Planning";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+}
+ul .chart-li-two-a {
+  grid-column: 11/12; 
+  background-color: #0080FF;
+}
+.chart-li-two-a:before {
+  content: "Add";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+}
+ul .chart-li-two-b {
+  grid-column: 11/12; 
+  background-color:#4682B4;
+}
+.chart-li-two-b:before {
+  content: "Delete";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+}
+ul .chart-li-two-c {
+    grid-column: 11/12; 
+    background-color:#4682B4;  
+} 
+.chart-li-two-c:before {
+  content: "Edit";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+}
+ul .chart-li-three {
+  grid-column: 11/13; 
+  background-color:#57A0D3;
+}
+ul .chart-li-four {
+  grid-column: 11/13; 
+  background-color:#0E4D92;
+}
+ul .chart-li-five {
+  grid-column: 11/13; 
+  background-color:#4F97A3;
+}
+
